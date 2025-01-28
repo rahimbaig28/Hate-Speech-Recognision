@@ -1,10 +1,7 @@
 from hate_speech_detection.logger import logging
 from hate_speech_detection.exception import CustomException
 import sys
+from hate_speech_detection.configuration.gcloud_syncer import GCloudSync
 
-try:
-    a = 1/"0"
-except Exception as e:
-    raise CustomException(e, sys) from e
-
-#logging.info("Creating empty file: demo.py")
+obj = GCloudSync()
+obj.sync_folder_to_gcloud("hate00332211", "data.zip", "data.zip")
