@@ -14,4 +14,4 @@ class GCloudSync:
 
 # Example usage:
 gcloud_sync = GCloudSync()
-gcloud_sync.sync_folder_from_gcloud("hate00332211", "Data.zip", "Download/data.zip")
+gcloud_sync.sync_folder_from_gcloud("hate00332211", "Data.zip", "Downloads")
