@@ -46,4 +46,5 @@ The notebook loads and processes an imbalanced dataset (`imbalanced_data.csv`). 
 ## Author
 
 Developed by Rahim Baig
+email:: rahimbaig00332211@gmail.com
 
